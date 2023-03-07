@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './Sidebar';
-import Home from './Home';
+import PrizeStructure from './PrizeStructure'
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path='/' element={<Home/>}/>
+          <Route path='/' element={<Sidebar>{<PrizeStructure/>}</Sidebar>}/>
 
         </Routes>
       </Router>
