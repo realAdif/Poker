@@ -20,6 +20,7 @@ const tourmamentRoundClockEl = () =>{
 };
 
 
+
 const TournamentClock = () => {
     return(
         <>
@@ -61,7 +62,9 @@ const TournamentClock = () => {
                         <input type="text"></input>
                     </div>
                     
-                    <button className='button-style'>Popup Timer</button>
+                    <button className='button-style' onClick={() =>{
+                        window.open('/timer');
+                    }}>Popup Timer</button>
 
                     <div className='control-panel-buttons'>
                         
