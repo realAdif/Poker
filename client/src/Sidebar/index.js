@@ -42,7 +42,7 @@ const Sidebar = ({children}) => {
             icon:<FaShoppingBag/>
         },
         {
-            path:"/productList",
+            path:"/TourmamentClock",
             name:"Tourmament Clock",
             icon:<FaThList/>
         }

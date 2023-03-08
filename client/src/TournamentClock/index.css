@@ -1,0 +1,73 @@
+.tournament-clock-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.tournament-clock-round-structure,.tournament-clock-control-panel{
+   
+    height: 100%;
+    background-color: white;
+    margin: 10px;
+
+    border-radius: 11px;
+}
+h3{
+    margin: 15px;
+}
+
+
+.demo {
+    border:1px solid #C0C0C0;
+    border-collapse:collapse;
+    padding: 5px;
+    margin-left: 25px;
+    width: 90%;
+}
+.demo th {
+    border:1px solid #C0C0C0;
+    padding:5px;  
+    background:#F0F0F0;
+}
+.demo td {
+    border: 1px solid #C0C0C0;
+    padding: 5px;
+    text-align: center;
+}
+
+.tournament-clock-control-panel{
+    padding: 20px;
+}
+.control-panel{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+
+.control-panel, input{
+    width: fit-content;
+}
+
+.control-panel-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
+}
+
+.button-style {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 28px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;   
+}
+
+.control-panel-round{
+    display: flex;
+    gap: 10px;
+    flex-basis:  53%;
+}
